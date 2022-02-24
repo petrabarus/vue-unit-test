@@ -11,4 +11,7 @@ module.exports = {
   ],
   reporter: ['lcov', 'text', 'text-summary'],
   extension: ['.js', '.vue'],
+  extends:[
+    "@istanbuljs/nyc-config-typescript"
+  ]
 }
